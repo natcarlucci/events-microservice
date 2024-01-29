@@ -25,28 +25,9 @@ public class Event {
     public Event(EventRequestDTO eventRequest) {
         this.date = eventRequest.date();
         this.maxParticipants = eventRequest.maxParticipants();
-        this.registeredParticipants = eventRequest.registeredPartipants()
+        this.registeredParticipants = eventRequest.registeredPartipants();
         this.title = eventRequest.title();
         this.description = eventRequest.description();
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
